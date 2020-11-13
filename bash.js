@@ -17,6 +17,6 @@ process.stdin.on('data', (data) => {
   // }
 })
 
-const getPWD = require('./pwd')
+const getPWD = require('./pwd');
 
-
+const getLS = require('./ls');
